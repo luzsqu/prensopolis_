@@ -115,6 +115,10 @@ a.spam-button:link {
 
 h1, h2, h3, h4 {
   color: black; }
+  .textoFooter{
+    background-color: green;
+    font-style: normal;
+  }
 
 .nav-item {
   border-radius: 30px; }
@@ -130,8 +134,8 @@ h1, h2, h3, h4 {
   padding: 50px 10px 10px 10px; }
 
 .container-fluid {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
 
