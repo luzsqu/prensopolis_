@@ -51,6 +51,7 @@ text-align: center;
 .p {
 margin-right: .75rem;
 margin-left: .75rem;
+text-align: justify;
 } 
 /* seccion nosotras*/
 .featurette-divider {
@@ -59,4 +60,5 @@ margin: 5rem 0;}
 .featurette-heading {
 font-weight: $fontweight;
 line-height: 1;
-letter-spacing: -.05rem;}
+letter-spacing: -.05rem;
+}
