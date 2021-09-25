@@ -74,6 +74,13 @@ a.spam-button:link {
   width: 90%;
   text-align: center; }
 
+
+@media (min-width: 250px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
+}
+
 @media (min-width: 500px) {
   .grids {
     grid-template-columns: 1fr 1fr; }
