@@ -76,7 +76,7 @@ a.spam-button:link {
 
 
 @media (min-width: 250px) {
-  .navbar {
+  .navbar-toggler {
     flex-wrap: nowrap;
   }
 }
