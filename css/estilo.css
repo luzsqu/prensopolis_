@@ -74,12 +74,12 @@ a.spam-button:link {
   width: 90%;
   text-align: center; }
 
-
-@media (min-width: 250px) {
-  .navbar-toggler {
-    flex-wrap: nowrap;
+  .navbar-principal {
+    display: flex;
   }
-}
+
+@media (min-width: 340px) {
+  }
 
 @media (min-width: 500px) {
   .grids {
@@ -123,10 +123,14 @@ a.spam-button:link {
 
 h1, h2, h3, h4 {
   color: black; }
-
+ 
 .paddingTB {
   align-items: center;
   padding: 20px 10px 10px 10px; }
+
+  .carousel-inner {
+    height: 85vh;
+      }
 
 .textoIndex {
   color: white; }
