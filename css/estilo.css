@@ -70,19 +70,9 @@ a.spam-button:link {
   color: #333;
   display: block;
   padding: 5px;
-  margin: auto auto 10px;
+  margin: auto auto 20px;
   width: 90%;
   text-align: center; }
-
-  /*.navbar-principal {
-    display: flex;
-  }*/
-
-@media (min-width: 340px) 
-{
-  .navbar-toggler {flex-wrap: nowrap;
-    font-size: 0.75rem;}
-}
 
 @media (min-width: 500px) {
   .grids {
@@ -98,8 +88,7 @@ a.spam-button:link {
     grid-row: 6; }
   .cta {
     grid-column: 2;
-    grid-row: 5 / 7; }
-    }
+    grid-row: 5 / 7; } }
 
 @media (min-width: 800px) {
   .grids {
@@ -126,17 +115,17 @@ a.spam-button:link {
 
 h1, h2, h3, h4 {
   color: black; }
- 
+
 .paddingTB {
   align-items: center;
   padding: 20px 10px 10px 10px; }
 
- .textoIndex {
+.textoIndex {
   color: white; }
 
 .container-fluid {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
 
@@ -148,9 +137,11 @@ h1, h2, h3, h4 {
 .marketing .col-lg-4 {
   margin-bottom: 2rem;
   text-align: center; }
-  .marketing .col-lg-4 .p {
-    margin-right: .75rem;
-    margin-left: .75rem; }
+
+.p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  text-align: justify; }
 
 /* seccion nosotras*/
 .featurette-divider {
@@ -158,6 +149,4 @@ h1, h2, h3, h4 {
 
 .featurette-heading {
   font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0.05em;}
-
+  line-height: 1; }
