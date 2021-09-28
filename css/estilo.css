@@ -74,11 +74,12 @@ a.spam-button:link {
   width: 90%;
   text-align: center; }
 
-  .navbar-principal {
+  /*.navbar-principal {
     display: flex;
-  }
+  }*/
 
-@media (min-width: 340px) {
+@media (min-width: 340px) 
+{
   .navbar-toggler {flex-wrap: nowrap;
     font-size: 0.75rem;}
 }
@@ -121,7 +122,7 @@ a.spam-button:link {
 /* variable index*/
 /* disenio*/
 * {
-  margin: 10px; }
+  margin: 5px; }
 
 h1, h2, h3, h4 {
   color: black; }
@@ -130,16 +131,12 @@ h1, h2, h3, h4 {
   align-items: center;
   padding: 20px 10px 10px 10px; }
 
-  .carousel-inner {
-    height: 85vh;
-      }
-
-.textoIndex {
+ .textoIndex {
   color: white; }
 
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto; }
 
