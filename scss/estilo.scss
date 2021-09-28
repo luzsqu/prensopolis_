@@ -1,5 +1,5 @@
 @import 'novedades';
-
+@import 'index';
 
 /* variable index*/
 $black:black;
@@ -22,9 +22,8 @@ color: $black; }
 align-items: center;
 padding: 20px 10px 10px 10px;
 }
-
 .textoIndex {
-    color: $blanco
+color: $blanco
     }
 .container-fluid {
 padding-right: 15px;
@@ -38,8 +37,7 @@ margin-left: auto;
 .marketing {
     h2 {
 font-family: $fontfamily;
-font-size: $fontweight;
-}
+font-size: $fontweight;}
 }
 
 .marketing .col-lg-4 {

@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 340px) {
+    body { 
+    font-size: 8pt;      
+    text-align: center;}
+    h1 {
+    font-size: 20px;
+    padding: 10px;}
+    h2 {
+    font-size: 15px;}
+    .container p-4 {
+     padding: 15px;}
+    .btn {
+     display: inline-flex;
+    font-weight: 200;}
+     .navbar-toggler  {
+    display: block;
+      }
+     }
+    .carousel-inner {
+      display: block;
+  width: 100%;
+  height: auto
+      overflow: hidden;}
+}
