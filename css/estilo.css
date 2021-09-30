@@ -115,7 +115,7 @@ a.spam-button:link {
   h1 {
     font-size: 20px;
     padding: 10px; }
-  h2 {
+  h2 h3 {
     font-size: 15px; }
   .container p-4 {
     padding: 15px; }
@@ -123,10 +123,13 @@ a.spam-button:link {
     display: inline-flex;
     font-weight: 200; }
   .navbar-toggler {
-    display: block; }
-  .navbar-brand {
-    margin: 0px;
-    padding-left: 0%; } }
+    display: block; } }
+
+.carousel-inner {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
 
 /* variable index*/
 /* disenio*/
