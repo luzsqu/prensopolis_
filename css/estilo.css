@@ -123,20 +123,29 @@ a.spam-button:link {
     display: inline-flex;
     font-weight: 200; }
   .navbar-toggler {
-    display: block; } }
-
-.carousel-inner {
-  display: block;
-  width: 100%;
-  height: auto;
-  overflow: hidden; }
+    padding: 2px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem; }
+  .carousel-inner {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden; }
+  .carousel-item h3 {
+    font-size: 15px; } }
 
 /* variable index*/
 /* disenio*/
 * {
   margin: 5px; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: black; }
 
 .paddingTB {
@@ -147,8 +156,8 @@ h1, h2, h3, h4 {
   color: white; }
 
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto; }
 
